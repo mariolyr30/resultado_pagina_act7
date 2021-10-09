@@ -1,0 +1,107 @@
+body {
+    background-color: #8e7cf1;
+    color: #fff;
+    text-align: center;
+    font-family:  Century;
+    height: auto
+}
+
+@media only screen and (min-width:400px) {
+    header,nav,section,article,aside,footer {
+        width: 800%;
+    }
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.993);
+    margin: .25em auto;
+    text-align: center;
+    width: 80%;
+    text-shadow: 5px 5px 10px
+    rgb(187, 236, 107);
+}
+
+h2 {
+
+font-size: 50px;
+
+}
+
+h4 {
+    font-family: monospace;
+}
+
+h5 {
+    font-family: monospace;
+}
+
+header {
+    width: 90%;
+    height: 150px;
+}
+
+footer{
+    width: 90%;
+    height: 250px;
+}
+
+article {
+    width: 90%;
+    height: 300px;
+}
+
+nav,aside,section,header,footer,article {
+    background-color: #70cff8;
+    border-radius: .50em;
+    text-align: center;
+    margin: .25em auto;
+    padding: .25em;
+}
+
+nav,aside {
+    width: 24%;
+    text-align: center;
+    height: 800px;
+}
+
+section {
+    
+}
+
+nav,section,aside {
+    display: inline-block;
+}
+
+#cabecera,#articulo,#pie {
+    background-color:  #ff6ae6;
+    text-align: center;
+    width: 95%;
+}
+#contenedor {
+    width: 40%;
+    height: 800px;
+}
+
+
+#articulo {
+    min-height: 200px;
+}
+
+#asaid {
+    float: right;
+    margin-right: 56px;
+}
+
+#navegador {
+    float: left;
+    margin-left: 56px;
+}
+#pie2 {
+    background-color: #70cff8;
+    border-radius: .50em;
+    text-align:unset;
+    margin: .25em auto;
+    padding: .25em; 
+    width: 90%;
+    height: 150px;
+}
